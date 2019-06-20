@@ -1,0 +1,41 @@
+body {
+    background-color: dimgray;
+}
+
+nav {
+    background-color: #444444;
+    height: 50px;
+    color: white;
+    width: 100%;
+    float: left;
+    position: fixed;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 50px 0 50px;
+    text-decoration: none;
+    position: sticky;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #000000;
+    font-weight: bold;
+}
+
+#panel1 {
+    margin-top: 100px;
+    color: #ffffff;
+    background: #000000;
+    text-align: center;
+}
+
+#content {
+    margin-top: 100px;
+}
