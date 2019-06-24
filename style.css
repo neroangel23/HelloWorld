@@ -1,47 +1,44 @@
 body {
-    background-color: dimgray;
-    overflow: scroll;
+    background-color: rgb(170, 175, 173);
+}
+
+header {
+    align-items: center;
 }
 
 #nav {
-    background-color: #444444;
-    margin: 0px;
-    height: 50px;
-    color: white;
+    height: 60px;
     width: 200%;
-    float: left;
-    position: fixed;
+    background-color: rgb(39, 39, 38);
+    display: flex;
+    margin: 0;
 }
 
-#nav li {
-    display: inline-block;
-    margin: 0 50px 0 50px;
-    text-decoration: none;
+#nav .logo-container img {
+    background: #ffffff;
+    height: 30px;
+    width: 30px;
+    flex: 1;
 }
 
-#nav a {
+nav li {
+    display: inline;
     text-decoration: none;
-    text-transform: uppercase;
+    margin: 0 40px 0 40px;
+    list-style: none;
+    flex: 2;
+}
+
+nav a {
     color: #ffffff;
 }
 
 #nav a:hover {
-    color: #000000;
-    font-weight: bold;
-}
-
-#nav li .highlight,
-.current a {
-    color: #000000;
-    font-weight: bold;
+    color: aquamarine;
+    text-transform: uppercase;
 }
 
 #content {
-    position: static;
-    left: 0;
-    top: 100px;
     width: 80%;
-    display: block;
-    font-size: 80px;
-    text-align: center;
+    margin: 0 auto;
 }
